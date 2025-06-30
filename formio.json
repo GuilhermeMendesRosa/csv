@@ -1,0 +1,59 @@
+{
+        "type": "form",
+        "components": [
+            {
+                "label": "Nome",
+                "placeholder": "Digite seu nome",
+                "type": "textfield",
+                "key": "nome",
+                "input": true
+            },
+            {
+                "label": "Email",
+                "placeholder": "Digite seu email",
+                "type": "email",
+                "key": "email",
+                "input": true
+            },
+            {
+                "label": "Idade",
+                "type": "number",
+                "key": "idade",
+                "input": true
+            },
+            {
+                "label": "Gênero",
+                "type": "select",
+                "key": "genero",
+                "data": {
+                    "values": [
+                        {
+                            "label": "Masculino",
+                            "value": "masculino"
+                        },
+                        {
+                            "label": "Feminino",
+                            "value": "feminino"
+                        },
+                        {
+                            "label": "Outro",
+                            "value": "outro"
+                        }
+                    ]
+                },
+                "input": true
+            },
+            {
+                "type": "button",
+                "label": "Enviar",
+                "key": "submit",
+                "disableOnInvalid": true,
+                "input": true,
+                "tableView": false
+            }
+        ],
+        "title": "Formulário de Exemplo",
+        "display": "form",
+        "name": "formularioExemplo",
+        "path": "formulario-exemplo"
+    }
